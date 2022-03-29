@@ -1,7 +1,7 @@
 package Arrays
 
 fun main(){
-    val MyArray= arrayOf(1,"hola",true,'c',2.5f)
+    val MyArray= arrayOf(1,"hola",true,'c',21.5f)
     println(MyArray[1])
     MyArray[2]="adios"
     println(MyArray[2])
