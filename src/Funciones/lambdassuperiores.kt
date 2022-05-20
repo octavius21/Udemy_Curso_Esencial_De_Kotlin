@@ -24,6 +24,7 @@ fun  main(){
     //otra forma
     consultProductId(onNext = getOnNextBehavior())
 
+    println(aux) //esto me da kotlin.Unit òr que es una lambda de respuesta
 
 }
 fun isvalid(x:Int, validate:(x:Int)->Boolean):Boolean{

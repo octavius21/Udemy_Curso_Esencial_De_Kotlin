@@ -8,7 +8,7 @@ fun main(){
     showWelcomeMessage("Welcome",user)
     showWelcomeMessage("Hi",user, experience = true,edad=25)
 }
-/* infix*//*Para ya no poner la notacion . cuando el objeto hace uso del objeto */fun showWelcomeMessage(text:String,user:String="",experience:Boolean=false,edad:Int=18){
+/* infix*//*Para ya no poner la notacion '.' cuando el objeto hace uso del objeto */fun showWelcomeMessage(text:String,user:String="",experience:Boolean=false,edad:Int=18){
     val message="$text $user $experience $edad! ".trim()
     println(message)
 }
