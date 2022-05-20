@@ -2,10 +2,10 @@ package algoritmo
 
 fun main() {
     //i                     //0 1, 2, 3
-//    val numbers = intArrayOf(0, 0, 1, 1, 1, 2, 2, 3, 3, 4)
+    val numbers = intArrayOf(0, 0, 1, 1, 1, 2, 2, 3, 3, 4)
 //    val numbers = intArrayOf(1,1,2)
 //    val numbers = intArrayOf(0)
-    val numbers = intArrayOf()
+ //   val numbers = intArrayOf()
 
     if (numbers.size > 1) {
 
